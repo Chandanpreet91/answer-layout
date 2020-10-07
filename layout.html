@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' href='normalize.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+   <style>
+       body{
+        height: 100vh;
+       }
+       .page-container{
+           height: 80vh;
+           width: 80vw;
+           display :flex;
+           background-color: rgb(240, 199, 145);
+           flex-direction: column;
+       }
+       .top-container{
+           display:flex;
+           height: 30%;
+           justify-content: space-around;
+           }
+       .bottom-container{
+           display:flex;
+           height: 70%;
+           
+            }
+       .navbar {
+           display: flex;
+           width:80vw;
+           height: 20%;
+         background-color: rgb(196, 214, 250);
+         padding: 20px;
+         justify-content: space-around;
+      
+      }
+      .item{
+          color : black;
+          align-items: flex-start;
+          
+      }
+      .left-item{
+          color: white;
+          font-size: 25px;
+          width:40%;
+      }
+      .right-item{
+          width: 60%;
+      }
+      .footer{
+          display: flex;
+        align-items: row;
+        justify-content: space-around;
+        padding-bottom: 20px;
+      }
+      .fab fa-galactic-senate{
+          width: 20px;;
+      }
+      .right-item-top{
+          color: darkgoldenrod;
+          font-size: 30px;
+      }
+      .right-item-bottom{
+          display: flex;
+          display: flex;
+          font-size: 10px;
+          justify-content: flex-start;
+      }
+
+
+    
+
+   </style>
+</head>
+<body>
+    <h1>Home page :</h1>
+    <main class = 'page-container'>
+        <section class='top-container'>
+            <nav class='navbar'>
+            <div class ='item'><i class="fab fa-galactic-senate"></i></div>
+            <div class ='item'>Questions</div>
+            <div class ='item'>New Questtion</div>
+            <div class ='item'>Sign In</div>
+            <div class ='item'>Sign Up</div>
+        </nav>
+        </section>
+        <section class ='bottom-container'>
+            <div class= 'left-item'><h1>You know nothing, Jon Snow!</h1></div>
+            <div class ='right-item'>
+            <div class='right-item-top'><p>A dream of Spring. All men must die.Pay the iron price.It is 
+                rare to meet a Lannister who shares my entusiasm for dead Lannisters. Unbowed, Unbent, Unbroken.
+            </p></div>
+            <div class='right-item-bottom'>
+            <div class='item-one'>Asked by John Snow 4 months ago |</div>
+            <div class='item-two'> Last edited 4 months ago |</div>
+            <span class='item-three'> Seen 21241 times</span>
+            </div>
+        </div>
+    </div>
+        </section>
+        <div class ='footer'>
+        <footer class='item1'>About</footer>
+            <footer class='item2'>Contact</footer>
+        </div>
+    </main>
+    
+</body>
+</html>
